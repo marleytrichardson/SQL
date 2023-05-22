@@ -1,0 +1,20 @@
+CREATE TABLE Candy_Store(id INTEGER PRIMARY KEY, name TEXT, price INTEGER, quanity INTEGER, aisle INTEGER); 
+
+INSERT INTO Candy_Store VALUES (1,"hershey",5,60,7 );
+INSERT INTO Candy_Store VALUES(2, "gummy bears", 8,20,2);
+INSERT INTO Candy_Store VALUES (3,"gum", 1, 3, 15) ;
+INSERT INTO Candy_Store VALUES (4,"cherry heads",3,8,9);
+INSERT INTO Candy_Store VALUES (5, "lollipop", 3,50, 13);
+INSERT INTO Candy_Store VALUES(6, "twizzler",4,30,13);
+INSERT INTO Candy_Store VALUES (7, "pop rocks",1,35,6);
+INSERT INTO Candy_Store VALUES(8, "sour patch kids",5,70,4);
+INSERT INTO Candy_Store VALUES(9, "skittles",3,40,12);
+INSERT INTO Candy_Store VALUES(10,"nerds",2 ,80,3);
+INSERT INTO Candy_Store VALUES(11,"smarties", 1, 25,10);
+INSERT INTO Candy_Store VALUES(12, "airheads", 1, 75,5);
+INSERT INTO Candy_Store VALUES(13, "kit kat", 2,53,1);
+INSERT INTO Candy_store VALUES(14,"twix",3,20,8);
+INSERT INTO Candy_Store VALUES(15,"rock candy",1, 73,7);
+
+
+SELECT SUM(price)FROM Candy_Store ;
